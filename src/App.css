@@ -1,11 +1,15 @@
 .App {
   text-align: center;
-  background: blue;
+  background: rgb(119, 119, 248);
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.App h1{
+  color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -51,8 +55,10 @@
     border-radius: 20px;
     border: none;
     margin-bottom: 5%;
-    background: rgba(250, 250, 250, 0.85);
+    /* background: rgba(250, 250, 250, 0.85); */
+    background: rgba(173, 208, 255, 0.85);
     box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
+    font-size: large;
 }
 .city {
     display: flex;
@@ -61,11 +67,11 @@
     flex-direction: column;
     padding: 40px 8%;
     border-radius: 20px;
-    background: rgba(250, 250, 250, 0.85);
+    background: rgba(173, 208, 255, 0.85);
     box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
 }
 .city-temp {
-    font-size: 5rem;
+    font-size: 2rem;
     font-weight: bold;
     margin-top: 10px;
     color: #1e2432;
